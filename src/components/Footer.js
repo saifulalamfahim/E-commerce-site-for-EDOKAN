@@ -1,6 +1,7 @@
 import React from 'react';
 import FooterCardFirst from './UI/card/FooterCardFirst';
 import FooterCardSecond from './UI/card/FooterCardSecond';
+import FooterCardThird from './UI/card/FooterCardThird';
 
 const Footer = () => {
     return (
@@ -23,13 +24,10 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
-        <footer className='py-3'>
+        <footer className='py-0'>
             <div className='container-xl'>
                 <div className='row'>
-                    <div className='col-12'>
-                        <p className='text-center mb-0 text-white'>
-                            &copy; {new Date().getFullYear()}: Powerd By developer of 3W</p>
-                    </div>
+                   <FooterCardThird/>
                 </div>
             </div>
         </footer>

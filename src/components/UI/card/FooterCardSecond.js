@@ -50,20 +50,48 @@ const FooterCardSecond = () => {
                     </div> 
                 </div>
             </div>
-            <div className='col-2'>
+            <div className='col-2 all-pere'>
                  <h4 className='text-white mb-4'>Help $ <br /> Customer</h4>
-                <div></div>
+                <div className='pere'>
+                    <p>New Customers</p>
+                    <p>About</p>
+                    <p>How To use</p>
+                    <p>Account</p>
+                    <p>Placiing on</p>
+                    <p>Problem</p>
+                    <p>Others</p>
+                </div>
             </div>
-            <div className='col-2'>
+            <div className='col-2 all-pere-2'>
                 <h4 className='text-white mb-4'>Customer <br /> service</h4>
-                 <div></div>
+                <div className='pere'>
+                    <p>New Customers</p>
+                    <p>About</p>
+                    <p>How To use</p>
+                    <p>Account</p>
+                    <p>Placiing on</p>
+                   
+                </div>
             </div>
-            <div className='col-2'>
+            <div className='col-2 all-pere-3'>
                  <h4 className='text-white mb-4'>My Account</h4>
-                 <div></div>
+                 <div className='pere'>
+                    <p>New Customers</p>
+                    <p>About</p>
+                    <p>How To use</p>
+                    <p>Account</p>
+                    <p>Placiing on</p>
+                   
+                </div>
             </div>
             <div className='col-3'>
                  <h4 className='text-white mb-4'>Signup To Newsletter</h4>
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, veniam?</p>
+                 <div className='d-flex subscribe-button align-items-center'>
+                 <input type="text" className="form-control py-2" placeholder="Enter your email" aria-label="ENTER your email" aria-describedby="basic-addon2"/>
+                    <span className="input-group-text p-3 padding" id="basic-addon2">SUBSCRIBE</span>
+                 </div>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, provident?</p>
                 <div></div>
             </div>
         </div>

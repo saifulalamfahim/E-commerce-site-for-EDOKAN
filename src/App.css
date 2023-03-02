@@ -180,8 +180,59 @@ footer{
  margin-left: 12px;
  margin-top: 12px;
 }
-
+.pere p{
+ margin-top: -10px;
+}
+.footer-middle-data .all-pere{
+  margin-left: 65px;
+}
+.footer-middle-data .all-pere-2{
+  margin-left: -35px;
+}
+.footer-middle-data .all-pere-3{
+  margin-left: -25px;
+}
+.footer-middle-data input[type="text"] {
+  width: 3200px;
+  height: 35px;
+  padding: 1px 10px;
+  font-size: 12px;
+}
+.footer-middle-data .subscribe-button span{
+  width: 95px;
+  height: 35px;
+  margin-left: -88px;
+  border: none;
+  color: var(--color-ffffff);
+  font-size: 12px;
+  background-color: var(--color-16bcdc);
+  border-radius: 0%;
+  cursor: pointer;
+}
 /* footer second part end */
+
+/* footer third part start */
+.footer-third-data .payment{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  
+}
+  .footer-third-data img{
+    width: 70px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 7px;
+  }
+  .footer-third-data .tk-logo div {
+    width: 90px;
+    height: 40px;
+    background-color: var(--color-ffffff);
+    border-radius: 5%;
+    margin-bottom: 30px;
+  }
+/* footer third part end */
 
 /* footer part end */
 
