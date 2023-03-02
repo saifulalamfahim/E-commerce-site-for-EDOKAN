@@ -1,10 +1,13 @@
 import React from 'react';
 // import { icons } from 'react-icons';
 import { Link, NavLink } from 'react-router-dom';
-import { CiSearch } from 'react-icons/ci';
-import DropdownButtonLanguage from './UI/DropdownButtonLanguage';
-import DropdownButtonCurrency from './UI/DropdownButtonCurrency';
-import DropdownMenuButton from './UI/DropdownMenuButton';
+import { HiOutlineUser } from 'react-icons/hi';
+import { MdFavoriteBorder } from 'react-icons/md';
+import { AiOutlineShopping } from 'react-icons/ai';
+import { BiCategory } from "react-icons/bi";
+import DropdownButtonLanguage from './UI/buttons/DropdownButtonLanguage';
+import DropdownButtonCurrency from './UI/buttons/DropdownButtonCurrency';
+import DropdownMenuButton from './UI/buttons/DropdownMenuButton';
 // import Dropdown from 'react-bootstrap/Dropdown';
 
 const Header = () => {
@@ -50,29 +53,35 @@ const Header = () => {
                             <Link className='text-white fs-3 fw-bolder'>EDOKAN</Link>
                         </h2>
                     </div>
-                    <div className='col-5'>
-                        <div className="input-group">
+                    <div className='col-5 dropdownSearchBar'>
+                        <div className="input-group mb-3">
                             <DropdownMenuButton/>
                         </div>
                     </div>
                     <div className='col-5'>
-                         <div className='header-upper-links d-flex align-items-center justify-content-between'>
+                         <div className='header-upper-links mb-3'>
                                  <div>
                                     <Link className='d-flex align-items-center gap-10 text-white'>
-                                        <img src="images/user.svg" alt="user" />
-                                        <p className='mb-0'><span className='txt-color'>Sign In</span> <br /> Crearte An Account</p>
+                                        <divs>
+                                            <HiOutlineUser className='header-upper-icons'/>
+                                        </divs>
+                                        <p className='mb-0'><span>Sign In</span> <br /> Create An Account</p>
                                     </Link>
                                 </div>
                                  <div>
                                     <Link className='d-flex align-items-center gap-10 text-white'>
-                                        <img src="images/wishlist.svg" alt="wishlist" />
+                                        <div>
+                                            <MdFavoriteBorder className='header-upper-icons'/>
+                                        </div>
                                         <p className='mb-0'><span>Favorite</span> <br />My wishlist</p>
                                     </Link>
                                 </div>
                                 <div> 
                                     <Link className='d-flex align-items-center gap-10 text-white'>
-                                        <img src="images/cart.svg" alt="cart" />
-                                        <p className='mb-0'><span>My Cart</span> <br />$000</p>
+                                        <div>
+                                            <AiOutlineShopping className='header-upper-icons'/>
+                                        </div>
+                                        <p className='mb-0'><span>My Cart</span> <br />$0.00</p>
                                     </Link>
                                 </div>
 
@@ -81,20 +90,21 @@ const Header = () => {
                 </div>
             </div>
         </header>
-        <header className='header-botton py-3'>
+        <header className='header-botton'>
             <div className='container-xl'>
                 <div className='row'>
                     <div className='col-12'>
                         <div className='menu-bottom d-flex align-items-center gap-30'>
-                            <div className='pt-3'>
+                            <div className='d-flex gap-10 pt-3 me-5'>
+                                <BiCategory className='text-white'/>
                                 <p>SHOP BY CATEGORY</p>
                             </div>
                             <div className='menu-links'>
-                                <div className='d-flex align-items-center gap-15'>
+                                <div className='d-flex align-items-center ms-5 gap-15'>
                                     <NavLink to="/">Home</NavLink>
-                                    <NavLink to="/">Our Services</NavLink>
-                                    <NavLink to="/">Blogs</NavLink>
-                                    <NavLink to="/">Contact</NavLink>
+                                    <NavLink to="/">SHOP</NavLink>
+                                    <NavLink to="/">CONTACT US</NavLink>
+                                    <NavLink to="/">ABOUT US</NavLink>
                                 </div>
                             </div>
                             <div className='menu-offer'>Spend $120 more and get free shipping</div>

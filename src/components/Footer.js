@@ -1,14 +1,16 @@
 import React from 'react';
+import FooterCardFirst from './UI/card/FooterCardFirst';
+import FooterCardSecond from './UI/card/FooterCardSecond';
 
 const Footer = () => {
     return (
         <>
-        <footer className='py-0'>
+        <footer className='py-5'>
             <div className='container-xl'>
                 <div className='row'>
-                    <div className='col-5'>
+                    <div className='col-12'>
                         <div className='footer-top-data d-flex gap-30 align-items-center'>
-                               <h3 className='text-white'>ami shober upore</h3>
+                               <FooterCardFirst/>
                         </div>
                     </div>
                 </div>
@@ -17,26 +19,7 @@ const Footer = () => {
         <footer className='py-0'>
             <div className='container-xl'>
                 <div className='row'>
-                    <div className='col-3'>
-                        <h4 className='text-white mb-4'>Download App</h4>
-                        <div></div>
-                    </div>
-                    <div className='col-2'>
-                        <h4 className='text-white mb-4'>Help $ Customer</h4>
-                        <div></div>
-                    </div>
-                    <div className='col-2'>
-                        <h4 className='text-white mb-4'>Customer service</h4>
-                        <div></div>
-                    </div>
-                    <div className='col-2'>
-                        <h4 className='text-white mb-4'>My Account</h4>
-                        <div></div>
-                    </div>
-                    <div className='col-3'>
-                        <h4 className='text-white mb-4'>Signup To Newsletter</h4>
-                        <div></div>
-                    </div>
+                   <FooterCardSecond/>
                 </div>
             </div>
         </footer>
