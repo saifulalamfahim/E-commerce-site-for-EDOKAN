@@ -4,6 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { CiSearch } from 'react-icons/ci';
 import DropdownButtonLanguage from './UI/DropdownButtonLanguage';
 import DropdownButtonCurrency from './UI/DropdownButtonCurrency';
+import DropdownMenuButton from './UI/DropdownMenuButton';
 // import Dropdown from 'react-bootstrap/Dropdown';
 
 const Header = () => {
@@ -40,18 +41,18 @@ const Header = () => {
                     </div>
             </div>
         </header>
+
         <header className='header-upper py-3'>
             <div className='container-xl'>
                 <div className='row align-items-center'>
                     <div className='col-2'>
-                        <h2 className='text-white'>
-                            <Link className='text-white mb=0'>EDOKAN</Link>
+                        <h2 className='text-white mb-3'>
+                            <Link className='text-white fs-3 fw-bolder'>EDOKAN</Link>
                         </h2>
                     </div>
                     <div className='col-5'>
-                    <div className="input-group mb-3">
-                            <input type="text" className="form-control py-2" placeholder="Search product here..." aria-label="Search product here..." aria-describedby="basic-addon2"/>
-                            <span className="input-group-text p-3 padding" id="basic-addon2"><CiSearch className='fs-4'/></span>
+                        <div className="input-group">
+                            <DropdownMenuButton/>
                         </div>
                     </div>
                     <div className='col-5'>
