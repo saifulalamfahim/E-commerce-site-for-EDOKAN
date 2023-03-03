@@ -12,6 +12,8 @@
   --color-7c9cc8: #6c7e95;
   --color-16bcdc: #16bcdc;
   --color-e9e9ed: #e9e9ed;
+  --color-bf4800: #bf4800;
+  --color-132921: #131921;
 }
 body {
   font-family: "Rubic", sans-serif;
@@ -34,6 +36,87 @@ a {
 .gap-30{
   gap: 30px;
 }
+
+
+/* UI Start */
+      /* DropdownButtonLanguage start */
+      .dropdown select {
+        background-color: var(--color-131921);
+        border: none;
+        color: var(--color-ffffff);
+        padding: 0px;
+        font-size: 10px;
+        cursor: pointer;
+      }
+      .dropdown select::-ms-expand {
+        display: none;
+      }
+      .dropdown select:focus {
+        outline: none;
+        border-color: #f5f5f5;
+      }
+      .dropdown select option {
+        background-color: #fff;
+        color: #333;
+      } 
+       /* DropdownButtonLanguage end */
+
+
+      /* DropdownMenuButton start */
+      .dropdown1 select{
+        width:150px;
+        height: 39.5px;
+        margin-right: -140px;
+        z-index: 1;
+        padding-left: 5px;
+        border: none;
+        background-color: var(--color-e9e9ed);
+      }
+      input[type="text"] {
+        width: 450px;
+        height: 40px;
+        padding: 8px 150px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-radius: 0%;
+        font-size: 12px;
+      }
+      .dropdown1:hover{
+        display: block;
+      }
+      .dropdown1 span{
+        width: 35px;
+        height: 30px;
+        margin-left: -38px;
+        border: none;
+      }
+      .search{
+        margin-left: -8px;
+        margin-top: -10px;
+        color: var(--color-ffffff);
+      }
+        /* DropdownMenuButton end */
+
+    /* random button start */
+      .button{
+        background-color: none;
+        color: var(--color-ffffff);
+        border: 1px solid var(--color-ffffff);
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 53px;
+        border-radius: 25px;
+      }
+      .button:hover{
+        background-color: var(--color-ffffff);
+        color: #232f3e;
+      }
+
+    /* random button end */
+      
+      /* UI End */
+      
+      
 
 /* Header part */
 .header-top-strip {
@@ -106,7 +189,56 @@ a {
 }
 /*  Header part end */
 
+
+/* Home Start Here */
+.main-banner-content {
+  top: 25%;
+  left: 15%;
+}
+.main-banner-content h5{
+  font-size: 42px;
+  line-height: 44px;
+  font-weight: 700;
+  color: var(--color-ffffff);
+}
+.main-banner-content p{
+  font-size: 15px;
+  color: var(--color-e9e9ed);
+  margin-bottom: 50px;
+}
+.main-banner img{
+  height: 395px;
+  width: 620px;
+  object-fit: cover;
+}
+.small-banner-content {
+  top: 22%;
+  left: 10%;
+}
+.small-banner-content h5{
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-ffffff);
+}
+.small-banner-content p{
+  margin-top: 16px;
+  font-size: 12px;
+  color: var(--color-e9e9ed);
+}
+.small-banner{
+  width: 48%;
+  margin-top: 24px;
+}
+.small-banner img{
+  height: 185px;
+  margin-left: -20px;
+  object-fit: cover;
+}
+
+/* Home end here */
+
 /* Footer part */
+
 
 
 /* footer first part start */
@@ -236,62 +368,4 @@ footer{
 
 /* footer part end */
 
-
-
-/* UI Start */
-      /* DropdownButtonLanguage */
-.dropdown select {
-  background-color: var(--color-131921);
-  border: none;
-  color: var(--color-ffffff);
-  padding: 0px;
-  font-size: 10px;
-  cursor: pointer;
-}
-.dropdown select::-ms-expand {
-  display: none;
-}
-.dropdown select:focus {
-  outline: none;
-  border-color: #f5f5f5;
-}
-.dropdown select option {
-  background-color: #fff;
-  color: #333;
-} 
-/* DropdownMenuButton */
-.dropdown1 select{
-  width:150px;
-  height: 39.5px;
-  margin-right: -140px;
-  z-index: 1;
-  padding-left: 5px;
-  border: none;
-  background-color: var(--color-e9e9ed);
-}
-input[type="text"] {
-  width: 450px;
-  height: 40px;
-  padding: 8px 150px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border-radius: 0%;
-  font-size: 12px;
-}
-.dropdown1:hover{
-  display: block;
-}
-.dropdown1 span{
-  width: 35px;
-  height: 30px;
-  margin-left: -38px;
-  border: none;
-}
-.search{
-  margin-left: -8px;
-  margin-top: -10px;
-  color: var(--color-ffffff);
-}
-
-/* UI End */
 

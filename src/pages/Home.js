@@ -1,10 +1,13 @@
 import React from 'react';
+import BannerContainer from '../container/BannerContainer';
 
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <>
+            <section className='home-wrapper-1 py-2'>
+                <BannerContainer/>
+            </section>
+        </>
     );
 };
 
