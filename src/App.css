@@ -12,11 +12,13 @@
   --color-7c9cc8: #6c7e95;
   --color-16bcdc: #16bcdc;
   --color-e9e9ed: #e9e9ed;
+  --color-d9d9de: #d9d9de;
   --color-bf4800: #bf4800;
   --color-132921: #131921;
 }
 body {
   font-family: "Rubic", sans-serif;
+  background-color: var(--color-e9e9ed);
 }
 a {
   text-decoration: none;
@@ -111,9 +113,29 @@ a {
         background-color: var(--color-ffffff);
         color: #232f3e;
       }
+      .cart-button{
+        background-color: var(--color-16bcdc);
+        color: var(--color-ffffff);
+        border: none;
+        font-size: 9px;
+        font-weight: 700;
+        padding: 8px 36px;
+        border-radius: 60px;
+      }
+      .cart-button:hover{
+        background-color: var(--color-232f3e);
+        color: var(--color-ffffff);
+      }
 
     /* random button end */
-      
+
+    /* Animation start */
+    .card-wrapper{
+      background-color: #263C97;
+      padding: 15px;
+      color: var(--color-ffffff);
+    }
+     /*Animation end  */
       /* UI End */
       
       
@@ -191,6 +213,7 @@ a {
 
 
 /* Home Start Here */
+/* Banner container start */
 .main-banner-content {
   top: 25%;
   left: 15%;
@@ -234,6 +257,77 @@ a {
   margin-left: -20px;
   object-fit: cover;
 }
+/* Banner container end */
+
+/* trending product container start */
+  .product-card{
+    padding: 15px;
+    background-color: var(--color-ffffff);
+    border-radius: 6%;
+    /* border-top: 1px solid var(--color-3b4149); */
+  }
+  .product-card .product-image img{
+        width: 135px;
+        height: 120px;
+        object-fit: cover;
+  }
+  .product-card .product-details h5{
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--color-16bcdc);
+  }
+  .product-card .product-details p{
+    font-size: 14px;
+    font-weight: 900;
+}
+.product-card .product-details .product-rating {
+  display: flex;
+  align-items: first baseline;
+}
+.product-card .product-details .product-rating .star{
+   font-size: small;
+   margin-right: 10px;
+}
+.product-card .product-details .product-rating .number p{
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-7c9cc8);
+}
+.container .products-all{
+ display: flex;
+ justify-content: space-between;
+ align-items: first baseline;
+ border-bottom: 1px solid var(--color-d9d9de);
+ margin-bottom: 10px;
+ margin-bottom: 25px;
+
+}
+.container .products-all p, h5{
+  margin-bottom: 0px;
+  margin-left: -10px;
+  padding-bottom: 5px;
+}
+.container .products-all h5{
+  margin-bottom: -20px;
+  border-bottom: 3px solid var(--color-16bcdc);
+  margin-left: -10px;
+}
+.container .products-all .seeAll{
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+  color: var(--color-7c9cc8)
+}
+.container .products-all .seeAll .icons{
+  font-size: 9px;
+}
+.container .products-all p{
+  font-size: 12px;
+  color: var(--color-7c9cc8);
+}
+
+/* trending product container end */
 
 /* Home end here */
 
@@ -367,5 +461,8 @@ footer{
 /* footer third part end */
 
 /* footer part end */
+
+
+
 
 

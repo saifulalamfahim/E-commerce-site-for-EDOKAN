@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const BannerContainer = () => {
     return (
         <div>
-                      <div className='container-xl'>
+                      <div className='container'>
                     <div className='row'>
                         <div className='col-7'>
                             <div className='main-banner position-relative p-4'>
