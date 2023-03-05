@@ -156,6 +156,22 @@ a {
         background-color: var(--color-bf4800);
         color: var(--color-ffffff);
       }
+      .cart-button3{
+        background-color: var(--color-16bcdc);
+        color: var(--color-ffffff);
+        border: none;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 8px 58px;
+        border-radius: 2%;
+        padding-top: 9px;
+        margin-top: 5px;
+        text-align: center;
+      }
+      .cart-button3:hover{
+        background-color: var(--color-132921);
+        color: var(--color-ffffff);
+      }
       .FlashButton{
         background-color: var(--color-16bcdc);
         color: var(--color-ffffff);
@@ -765,6 +781,17 @@ margin-left: 15px;
 .login h5{
   font-size: 14px;
   color: var(--color-7c9cc8);text-align: end;
+}
+.login p{
+  font-size: 14px;
+  color: var(--color-7c9cc8);
+  margin-top: 15px;
+}
+.login span{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-16bcdc);
+  cursor: pointer;
 }
 
 /* Login End here */
