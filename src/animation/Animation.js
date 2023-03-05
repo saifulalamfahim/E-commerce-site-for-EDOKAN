@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 const Animation = () => {
     return (
         <div>
-            <div className='container-xxxl'>
+            <div className='container-xxxl mb-5'>
                 <div className='row'>
                     <div className='col-12'>
                         <div className='marquee-inner-wrapper card-wrapper'>

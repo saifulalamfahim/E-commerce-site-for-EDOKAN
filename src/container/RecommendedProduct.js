@@ -3,12 +3,12 @@ import ProductCard from '../components/UI/card/ProductCard';
 import { FaGreaterThan } from 'react-icons/fa';
 
 
-const TrendingProductsContainer = () => {
+const RecommendedProduct = () => {
     return (
         <div className='container trendingProducts mb-5'>
            <div className='row'>
             <div className='products-all'>
-                <h5>Hot Trending Products</h5>
+                <h5>Recommended For You</h5>
                <div className='seeAll'>
                 <p>See All </p>
                 <div>
@@ -27,4 +27,4 @@ const TrendingProductsContainer = () => {
     );
 };
 
-export default TrendingProductsContainer;
+export default RecommendedProduct;

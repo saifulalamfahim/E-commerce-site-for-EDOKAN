@@ -121,8 +121,24 @@ a {
         font-weight: 700;
         padding: 8px 36px;
         border-radius: 60px;
+        padding-top: 9px;
       }
       .cart-button:hover{
+        background-color: var(--color-232f3e);
+        color: var(--color-ffffff);
+      }
+      .FlashButton{
+        background-color: var(--color-16bcdc);
+        color: var(--color-ffffff);
+        border: none;
+        font-size: 9px;
+        font-weight: 700;
+        padding: 12px 99px;
+        border-radius: 60px;
+        padding-top: 15px;
+        margin-bottom: 20px;
+      }
+      .FlashButton:hover{
         background-color: var(--color-232f3e);
         color: var(--color-ffffff);
       }
@@ -302,6 +318,9 @@ a {
  margin-bottom: 25px;
 
 }
+.trendingProducts{
+  margin-top: -20px;
+}
 .container .products-all p, h5{
   margin-bottom: 0px;
   margin-left: -10px;
@@ -328,6 +347,138 @@ a {
 }
 
 /* trending product container end */
+
+/* Flash Deals Container start */
+    .flash-deals-Card{
+        background-color: var(--color-ffffff);
+        border-radius: 20px;
+    }
+    .flash-deals-Card .flash-deals-Card-Img img{
+      width: 250px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .flash-deals-Card .flash-deals-Card-Img .something {
+      margin-top: 25px;
+      margin-left: 25px;
+    }
+    .flash-deals-Card .flash-deals-Card-Img .something p{
+      width: 32px;
+      height: 13px;
+      background-color: black;
+      border-radius: 4px;
+      font-size: 9px;
+      color: white;
+      align-items: center;
+      text-align: center;
+      padding-top: 1px;
+      margin-top: -9px;
+    }
+    .flash-deals-Card .flash-deals-Card-data{
+      padding: 38px 20px 20px 0px;
+    }
+    .flash-deals-Card .flash-deals-Card-data h4{
+       color: var(--color-131921);
+       font-size: 12px;
+       font-weight: 800;
+    }
+    .flash-deals-Card .flash-deals-Card-data h5{
+      color: var(--color-bf4800);
+      font-size: 12px;
+      font-weight: 800;
+      margin-left: 2px;
+   }
+   .flash-deals-Card .flash-deals-Card-data .description{
+      font-size: 12px;
+      color: var(--color-7c9cc8);
+      margin-top: 15px;
+   }
+   .flash-deals-Card .flash-deals-Card-data .sold{
+    font-size: 15px;
+    outline-offset: var(--color-132921);
+    font-weight: 700;
+   }
+    .flash-deals-Card .flash-deals-Card-data .product-rating {
+      display: flex;
+      align-items: first baseline;
+    }
+    .flash-deals-Card .flash-deals-Card-data .product-rating .star{
+       font-size: small;
+       margin-right: 10px;
+    }
+    .flash-deals-Card .flash-deals-Card-data .product-rating .number p{
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--color-7c9cc8);
+    }
+    .product-banner{
+      margin-top: 44px;
+      margin-left: 45px;
+    }
+    .product-banner img{
+      width: 370px;
+      height: 155px;
+      margin-left: -20px;
+      object-fit: cover;
+    }
+    .product-banner-content {
+      top: 22%;
+      left: 10%;
+    }
+    .product-banner-content h5{
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--color-bf4800);
+    }
+    .product-banner-content p{
+      margin-top: 16px;
+      font-size: 12px;
+      color: var(--color-bf4800);
+      margin-left: -10px;
+    }
+/* Flash Deals Container end */
+
+
+/* Top Featured Product start */
+
+.smaller-featured-products .flash-deals-Card{
+  background-color: var(--color-ffffff);
+  border-radius: 20px;
+  padding-bottom: 6px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.smaller-featured-products .flash-deals-Card .flash-deals-Card-Img img{
+width: 130px;
+height: 70px;
+
+/* object-fit: cover; */
+}
+.smaller-featured-products .flash-deals-Card .flash-deals-Card-Img .something {
+margin-top: 25px;
+margin-left: 15px;
+}
+
+/* Top Featured Product end */
+
+/* Brand Name start */
+   .brandName{
+    background-color: var(--color-ffffff);
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+   }
+   .brandName img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+   }
+
+/* Brand Name end */
+
+
 
 /* Home end here */
 
