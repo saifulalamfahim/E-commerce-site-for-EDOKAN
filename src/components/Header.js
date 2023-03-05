@@ -61,7 +61,7 @@ const Header = () => {
                     <div className='col-5'>
                          <div className='header-upper-links mb-3'>
                                  <div>
-                                    <Link className='d-flex align-items-center gap-10 text-white'>
+                                    <Link to="login" className='d-flex align-items-center gap-10 text-white'>
                                         <divs>
                                             <HiOutlineUser className='header-upper-icons'/>
                                         </divs>
@@ -69,7 +69,7 @@ const Header = () => {
                                     </Link>
                                 </div>
                                  <div>
-                                    <Link className='d-flex align-items-center gap-10 text-white'>
+                                    <Link to="favorite" className='d-flex align-items-center gap-10 text-white'>
                                         <div>
                                             <MdFavoriteBorder className='header-upper-icons'/>
                                         </div>
@@ -77,7 +77,7 @@ const Header = () => {
                                     </Link>
                                 </div>
                                 <div> 
-                                    <Link className='d-flex align-items-center gap-10 text-white'>
+                                    <Link to="cart" className='d-flex align-items-center gap-10 text-white'>
                                         <div>
                                             <AiOutlineShopping className='header-upper-icons'/>
                                         </div>
@@ -102,9 +102,9 @@ const Header = () => {
                             <div className='menu-links'>
                                 <div className='d-flex align-items-center ms-5 gap-15'>
                                     <NavLink to="/">Home</NavLink>
-                                    <NavLink to="/">SHOP</NavLink>
-                                    <NavLink to="/">CONTACT US</NavLink>
-                                    <NavLink to="/">ABOUT US</NavLink>
+                                    <NavLink to="shop">SHOP</NavLink>
+                                    <NavLink to="contact">CONTACT US</NavLink>
+                                    <NavLink to="about">ABOUT US</NavLink>
                                 </div>
                             </div>
                             <div className='menu-offer'>Spend $120 more and get free shipping</div>
