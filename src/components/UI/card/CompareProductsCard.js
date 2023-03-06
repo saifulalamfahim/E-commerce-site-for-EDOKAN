@@ -4,7 +4,7 @@ const CompareProductsCard = () => {
     return (
         <div className='container categories mb-4'>
         <div className='row'>
-            <div className='border-line'>
+            <div className='categories__borderLine'>
                  <h5>Compare Products</h5>
             </div>
             <div className='Compare-product'>

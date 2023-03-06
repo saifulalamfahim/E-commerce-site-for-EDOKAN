@@ -5,15 +5,15 @@ import { AiFillStar } from 'react-icons/ai';
 const ShopProductsCard = () => {
     return (
         <div className='col-3'>
-        <div className='shop-product-card'>
-            <div className='product-image'>
-                <img src="images/watch.jpg" alt="Product img" />
+        <div className='shopProductCard'>
+            <div className='shopProductCard__productImage'>
+                <img src="images/tab1.jpg" alt="Product img" />
             </div>
-            <div className='product-details'>
+            <div className='shopProductCard__productDetails'>
                 <h5 className='product'>
                     Lorem ipsum dolor sit amet.
                 </h5>
-                <div className='product-rating'>
+                <div className='productDetails__rating'>
                    <div className='star'>
                    <AiFillStar/>
                     <AiFillStar/>

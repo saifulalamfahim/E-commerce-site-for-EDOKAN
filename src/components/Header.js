@@ -16,7 +16,7 @@ const Header = () => {
         <header className='header-top-strip py-1'>
             <div className='container-xl'>
                     <div className='row'>
-                        <div className='col-6 d-flex gap-30 pt-3 font-clr'>
+                        <div className='header-top-strip__nav col-6 d-flex gap-30 pt-3 font-clr'>
                             <div>
                                <div className='borderLeft'>
                                  <DropdownButtonLanguage/>
@@ -33,11 +33,11 @@ const Header = () => {
                         </div>
                         <div className='col-6 pt-3 '>
                         <div className='d-flex align-items-center gap-15 '>
-                                   <div className='nav-flex'>
-                                   <NavLink className="font-clr borderLeft navRight" to="/">My Account</NavLink>
-                                    <NavLink className="font-clr borderLeft navRight" to="/">About Us</NavLink>
-                                    <NavLink className="font-clr borderLeft navRight" to="/">Contact Us</NavLink>
-                                    <NavLink className="font-clr borderLeft navRight" to="/">FAQs</NavLink>
+                                   <div className='rightNav'>
+                                   <NavLink className="font-clr borderLeft rightNav__navLink" to="/">My Account</NavLink>
+                                    <NavLink className="font-clr borderLeft rightNav__navLink" to="/">About Us</NavLink>
+                                    <NavLink className="font-clr borderLeft rightNav__navLink" to="/">Contact Us</NavLink>
+                                    <NavLink className="font-clr borderLeft rightNav__navLink" to="/">FAQs</NavLink>
                                    </div>
                                 </div>
                         </div>

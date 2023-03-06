@@ -10,10 +10,10 @@ import { TfiLayout } from 'react-icons/tfi';
 
 const ShopProducts = () => {
     return (
-        <div className='col-9 '>
-             <div className="image-container">
+        <div className='col-9 shop-Products'>
+            <div className="shop-Products__imageContainer">
                 <img src="images/blog-1.jpg" alt="img" />
-                <div className="image-text">
+                <div className="imageContainer__imageText">
                     <p>Hurry UP</p>
                     <p>Free Shipping All Order Over $99</p>
                     <Link className='cart-button'>DISCOVER NOW</Link>

@@ -7,9 +7,9 @@ const RecommendedProduct = () => {
     return (
         <div className='container trendingProducts mb-5'>
            <div className='row'>
-            <div className='products-all'>
+            <div className='trendingProducts__products'>
                 <h5>Recommended For You</h5>
-               <div className='seeAll'>
+               <div className='products__seeAll'>
                 <p>See All </p>
                 <div>
                 <FaGreaterThan className='icons'/>

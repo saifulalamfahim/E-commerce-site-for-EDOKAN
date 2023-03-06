@@ -4,11 +4,11 @@ const ColorCard = () => {
     return (
         <div className='container categories mb-4'>
         <div className='row'>
-            <div className='border-line'>
+            <div className='categories__borderLine'>
                  <h5>Color</h5>
             </div>
-            <div className='color-container '>
-                <div className='first-line'>
+            <div className='categories__colorContainer '>
+                <div className='colorContainer__firstLine'>
                     <div className='bg-primary'>
 
                     </div>
@@ -29,7 +29,7 @@ const ColorCard = () => {
                     </div>
                         
                 </div>
-                <div className='second-line'>
+                <div className='colorContainer__secondLine'>
                     <div className='bg-dark'>
 
                     </div>

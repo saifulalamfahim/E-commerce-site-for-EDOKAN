@@ -17,36 +17,36 @@ const FooterCardSecond = () => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, blanditiis?
                     <br /><span>Get it now</span>
                 </p>
-                <div className='app'>
-                    <div className='d-flex App-store gap-30'>
+                <div className='footer-middle-data__app'>
+                    <div className='d-flex app__appStore gap-30'>
                         <div>
-                            <div className='appBorderRight'>
+                            <div className='appStore__borderRight'>
                             <AiFillApple className='app-icons'/>
                             </div>
                         </div>
                         <p>Download it from <br /><span>APPSTORE</span></p>
                     </div>
-                    <div className='d-flex App-store gap-30'>
+                    <div className='d-flex app__appStore gap-30'>
                         <div className=''>
-                           <div className='appBorderRight'>
+                           <div className='appStore__borderRight'>
                            <RiGooglePlayFill className='app-icons'/>
                            </div>
                         </div>
                         <p>Download it from <br /><span>GOOGLEPLAY</span></p>
                     </div>
                 </div>
-                <div className='social-media gap-10 mt-3 mb-3 d-flex'>
+                <div className='footer-middle-data__socialMedia gap-10 mt-3 mb-3 d-flex'>
                     <div className='bg-primary'>
-                        <FaFacebookF className='social-media-icons '/>
+                        <FaFacebookF className='socialMedia__icons '/>
                     </div>
                     <div className='bg-info'>
-                        <BsTwitter className='social-media-icons '/>
+                        <BsTwitter className='socialMedia__icons '/>
                     </div>
                     <div className='bg-secondary'>
-                        <FaInstagramSquare className='social-media-icons '/>
+                        <FaInstagramSquare className='socialMedia__icons '/>
                     </div>
                     <div className='bg-danger'>
-                        <AiOutlineGooglePlus className='social-media-icons '/>
+                        <AiOutlineGooglePlus className='socialMedia__icons '/>
                     </div> 
                 </div>
             </div>

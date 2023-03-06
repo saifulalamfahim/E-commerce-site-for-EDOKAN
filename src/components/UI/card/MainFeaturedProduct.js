@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom';
 const MainFeaturedProduct = () => {
     return (
         <div className='col-5'>
-            <div className='flash-deals-Card d-flex'>
-                <div className='flash-deals-Card-Img'>
-                    <div className='something'>
+            <div className='flashDealsCard d-flex'>
+                <div className='flashDealsCard__Img'>
+                    <div className='flashDealsCard__Img__something'>
                         <p>-25</p>
                         <p>New</p>
                     </div>
                     <img src="images/tab.jpg" alt="" />
                 </div>
-                <div className='flash-deals-Card-data'>
+                <div className='flashDealsCard__data'>
                     <h4>One Plus Nord N10 5g Unlocked</h4>
                     <div className='product-rating'>
                        <div className='star'>

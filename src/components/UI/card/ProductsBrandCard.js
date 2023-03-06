@@ -4,53 +4,53 @@ const ProductsBrandCard = () => {
     return (
         <div className='container categories mb-4'>
             <div className='row'>
-                <div className='border-line'>
+                <div className='categories__borderLine'>
                      <h5>Product Brand</h5>
                 </div>
-                <div className='cat-checkbox'>
-                <label className="checkbox-container">
+                <div className='categories__checkbox'>
+                <label className="categories__checkbox__container">
                     <input type="checkbox" id="checkbox-1" />
-                    <span className="checkmark"></span>
+                    <span className="checkbox__container__checkmark"></span>
                     Huawei
                 </label>
-                <label className="checkbox-container">
+                <label className="categories__checkbox__container">
                     <input type="checkbox" id="checkbox-2" />
-                    <span className="checkmark"></span>
+                    <span className="checkbox__container__checkmark"></span>
                     Symphony
                 </label>
-                <label className="checkbox-container">
+                <label className="categories__checkbox__container">
                     <input type="checkbox" id="checkbox-3" />
-                    <span className="checkmark"></span>
+                    <span className="checkbox__container__checkmark"></span>
                     Xiaomi
                 </label>
-                <label className="checkbox-container">
+                <label className="categories__checkbox__container">
                     <input type="checkbox" id="checkbox-4" />
-                    <span className="checkmark"></span>
+                    <span className="checkbox__container__checkmark"></span>
                    Lenovo
                 </label>
-                <label className="checkbox-container">
+                <label className="categories__checkbox__container">
                     <input type="checkbox" id="checkbox-5" />
-                    <span className="checkmark"></span>
+                    <span className="checkbox__container__checkmark"></span>
                     Vivo
                 </label>
-                <label className="checkbox-container">
+                <label className="categories__checkbox__container">
                     <input type="checkbox" id="checkbox-6" />
-                    <span className="checkmark"></span>
+                    <span className="checkbox__container__checkmark"></span>
                     Samsung
                 </label>
-                <label className="checkbox-container">
+                <label className="categories__checkbox__container">
                     <input type="checkbox" id="checkbox-8" />
-                    <span className="checkmark"></span>
+                    <span className="checkbox__container__checkmark"></span>
                     Nokia
                 </label>
-                <label className="checkbox-container">
+                <label className="categories__checkbox__container">
                     <input type="checkbox" id="checkbox-9" />
-                    <span className="checkmark"></span>
+                    <span className="checkbox__container__checkmark"></span>
                     Oppo
                 </label>
-                <label className="checkbox-container">
+                <label className="categories__checkbox__container">
                     <input type="checkbox" id="checkbox-10" />
-                    <span className="checkmark"></span>
+                    <span className="checkbox__container__checkmark"></span>
                     Apple
                 </label>
         </div>

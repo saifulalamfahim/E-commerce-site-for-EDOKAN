@@ -4,7 +4,7 @@ import React from 'react';
 const FooterCardThird = () => {
     return (
         <div className='footer-third-data'>
-             <div className='col-12 payment'>
+             <div className='col-12 footer-third-data__payment'>
                 <div className='d-flex tk-logo gap-10'>
                     <div className=''>
                         <img src="/images/PayPal-Logo.wine.svg" alt="" />

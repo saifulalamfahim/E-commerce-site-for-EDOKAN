@@ -6,16 +6,16 @@ const MyWishListCard = () => {
     return (
         <div className='container categories mb-5'>
             <div className='row'>
-                <div className='border-line'>
+                <div className='categories__borderLine'>
                     <h5>My Wish List</h5>
                 </div>
-                <div className='my-wish-list'>
+                <div className='categories__myWishList'>
                     <div className='products'>
-                        <div className='img-btn'>
+                        <div className='products__imgBtn'>
                             <img src="images/tab1.jpg" alt="" />
                             <Link>Add To Cart</Link>
                         </div>
-                        <div className='list-data'>
+                        <div className='products__listData'>
                             <h4>
                                 Lorem ipsum dolor sit ...
                             </h4>
@@ -27,11 +27,11 @@ const MyWishListCard = () => {
                     </div>
 
                     <div className='products'>
-                        <div className='img-btn'>
+                        <div className='products__imgBtn'>
                             <img src="images/tab1.jpg" alt="" />
                             <Link>Add To Cart</Link>
                         </div>
-                        <div className='list-data'>
+                        <div className='products__listData'>
                             <h4>
                                 Lorem ipsum dolor sit ...
                             </h4>
