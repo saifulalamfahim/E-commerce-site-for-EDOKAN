@@ -50,7 +50,7 @@ const Header = () => {
                 <div className='row align-items-center'>
                     <div className='col-2'>
                         <h2 className='text-white mb-3'>
-                            <Link className='text-white fs-3 fw-bolder'>EDOKAN</Link>
+                            <Link className='text-white fs-3 fw-bolder' to="/">EDOKAN</Link>
                         </h2>
                     </div>
                     <div className='col-5 dropdownSearchBar'>
