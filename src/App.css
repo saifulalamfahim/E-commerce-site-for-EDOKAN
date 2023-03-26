@@ -824,11 +824,25 @@ margin-left: 15px;
     object-fit: cover;
     margin-left: -300px;
    }
-   /* .wishListItem {
-    padding-left: -50px;
-   } */
-
 /* Favorite end here */
+   .wishList  .wishList__price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-ffffff);
+    padding: 20px;
+    font-size: 30px;
+   }
+   .wishList__price__subtotal{
+    display: flex;
+   }
+   .wishList__price__subtotal p{
+    margin: 20px;
+   }
+/* Cart start here */
+
+/* Cart end here */
 
 /* Footer part */
 

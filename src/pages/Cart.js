@@ -1,10 +1,13 @@
 import React from 'react';
+import CartContainer from '../container/CartContainer';
 
 const Cart = () => {
     return (
-        <div>
-            <h1>Under Maintenance </h1>
-        </div>
+        <>
+         <section className='cart-wrapper-1 py-2'>
+         <CartContainer/>
+        </section>
+       </>
     );
 };
 
