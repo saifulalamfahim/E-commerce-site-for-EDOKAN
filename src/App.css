@@ -797,6 +797,39 @@ margin-left: 15px;
 
 /* Login End here */
 
+/* Favorite start here */
+    .wishList{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+   .wishList__items .wishList__items__item{
+      text-align: center;
+      font-weight: 700;
+      background-color: var(--color-ffffff);
+      color: var(--color-7c9cc8);
+      padding: 20px;
+      border: 1px solid var(--color-d9d9de);
+   }
+   .wishList-Card .wishList-Card__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-ffffff);
+    font-weight: 600;
+    border: 1px solid var(--color-d9d9de);
+   }
+   .wishList-Card .wishList-Card__item img{
+    height: 100px;
+    object-fit: cover;
+    margin-left: -300px;
+   }
+   /* .wishListItem {
+    padding-left: -50px;
+   } */
+
+/* Favorite end here */
+
 /* Footer part */
 
 
