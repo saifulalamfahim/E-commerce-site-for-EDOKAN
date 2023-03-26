@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const LoginContainer = () => {
     return (
         <div className='container mb-5'>
-            <div className='row login mt-5'>
+            <div className='row login mt-4'>
                 <h2>Customer Login</h2>
                 <h6>If you have an account sign in wit your email address.</h6>
                 <form className='mt-3'>

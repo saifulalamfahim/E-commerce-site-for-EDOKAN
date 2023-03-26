@@ -34,10 +34,10 @@ const Header = () => {
                         <div className='col-6 pt-3 '>
                         <div className='d-flex align-items-center gap-15 '>
                                    <div className='rightNav'>
-                                   <NavLink className="font-clr borderLeft rightNav__navLink" to="/">My Account</NavLink>
-                                    <NavLink className="font-clr borderLeft rightNav__navLink" to="/">About Us</NavLink>
-                                    <NavLink className="font-clr borderLeft rightNav__navLink" to="/">Contact Us</NavLink>
-                                    <NavLink className="font-clr borderLeft rightNav__navLink" to="/">FAQs</NavLink>
+                                   <NavLink className="font-clr borderLeft rightNav__navLink" to="myAccount">My Account</NavLink>
+                                    <NavLink className="font-clr borderLeft rightNav__navLink" to="about">About Us</NavLink>
+                                    <NavLink className="font-clr borderLeft rightNav__navLink" to="contact">Contact Us</NavLink>
+                                    <NavLink className="font-clr borderLeft rightNav__navLink" to="faq">FAQs</NavLink>
                                    </div>
                                 </div>
                         </div>

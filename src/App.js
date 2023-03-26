@@ -8,6 +8,8 @@ import Shop from './pages/Shop';
 import Login from './pages/Login';
 import Favorite from './pages/Favorite';
 import Cart from './pages/Cart';
+import MyAccount from './pages/MyAccount';
+import Faq from './pages/Faq';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path='login' element={<Login/>}/>
           <Route path='favorite' element={<Favorite/>}/>
           <Route path='cart' element={<Cart/>}/>
+          <Route path='myAccount' element={<MyAccount/>}/>
+          <Route path='faq' element={<Faq/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

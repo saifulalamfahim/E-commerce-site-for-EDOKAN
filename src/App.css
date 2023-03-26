@@ -794,8 +794,15 @@ margin-left: 15px;
   color: var(--color-16bcdc);
   cursor: pointer;
 }
-
 /* Login End here */
+
+/* MyAccount start here */
+  #myAccount{
+    height: 430px;
+    width: 500px;
+    background-color: var(--color-ffffff);
+  }
+/* MyAccount end here */
 
 /* Favorite start here */
     .wishList{
