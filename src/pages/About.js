@@ -1,10 +1,13 @@
 import React from 'react';
+import AboutContainer from '../container/AboutContainer';
 
 const About = () => {
     return (
-        <div>
-              <h1>Under Maintenance </h1>
-        </div>
+        <>
+        <section className='about-wrapper-1 py-2'>
+            <AboutContainer/>
+       </section>
+      </>
     );
 };
 

@@ -1,10 +1,13 @@
 import React from 'react';
+import ContactContainer from '../container/ContactContainer';
 
 const Contact = () => {
     return (
-        <div>
-              <h1>Under Maintenance </h1>
-        </div>
+        <>
+        <section className='contact-wrapper-1 py-2'>
+            <ContactContainer/>
+       </section>
+      </>
     );
 };
 

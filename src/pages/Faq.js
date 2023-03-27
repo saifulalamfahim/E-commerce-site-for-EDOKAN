@@ -1,10 +1,13 @@
 import React from 'react';
+import FaqContainer from '../container/FaqContainer';
 
 const Faq = () => {
     return (
-        <div>
-            faqs
-        </div>
+        <>
+        <section className='faq-wrapper-1 py-2'>
+           <FaqContainer/>
+       </section>
+      </>
     );
 };
 
