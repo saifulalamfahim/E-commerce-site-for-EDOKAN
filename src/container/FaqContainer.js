@@ -13,7 +13,7 @@ const FaqContainer = () => {
     }
 
     return (
-        <div className='container'>
+        <div className='container mt-4 mb-4'>
            <div className='accordion'>
                 {data.map((item, i) => (
                     <div className='item'>

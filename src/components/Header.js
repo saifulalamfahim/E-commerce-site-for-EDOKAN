@@ -16,28 +16,28 @@ const Header = () => {
         <header className='header-top-strip py-1'>
             <div className='container-xl'>
                     <div className='row'>
-                        <div className='header-top-strip__nav col-6 d-flex gap-30 pt-3 font-clr'>
+                        <div className='header-top-strip__nav col-xl-6 col-sm-0 d-flex gap-30 pt-3 font-clr'>
                             <div>
-                               <div className='borderLeft'>
+                               <div className='borderLeft jhs'>
                                  <DropdownButtonLanguage/>
                                </div>
                             </div>
                             <div className=''>
-                                <div className='borderLeft'>
+                                <div className='borderLeft jhs'>
                                    <DropdownButtonCurrency/>
                                 </div>
                             </div>
-                            <div className=''>
+                            <div className='header-top-strip__nav__help'>
                                 <p>Need Help? SAAF.DEV</p>
                             </div>
                         </div>
-                        <div className='col-6 pt-3 '>
-                        <div className='d-flex align-items-center gap-15 '>
+                        <div className='col-xl-6 col-sm-12 pt-3 '>
+                        <div className='gap-15 kljbfg'>
                                    <div className='rightNav'>
-                                   <NavLink className="font-clr borderLeft rightNav__navLink" to="myAccount">My Account</NavLink>
-                                    <NavLink className="font-clr borderLeft rightNav__navLink" to="about">About Us</NavLink>
-                                    <NavLink className="font-clr borderLeft rightNav__navLink" to="contact">Contact Us</NavLink>
-                                    <NavLink className="font-clr borderLeft rightNav__navLink" to="faq">FAQs</NavLink>
+                                        <NavLink className="font-clr borderLeft rightNav__navLink" to="myAccount">My Account</NavLink>
+                                            <NavLink className="font-clr borderLeft rightNav__navLink rightNav__navLink__us " to="about">About Us</NavLink>
+                                            <NavLink className="font-clr borderLeft rightNav__navLink rightNav__navLink__us" to="contact">Contact Us</NavLink>
+                                            <NavLink className="font-clr borderLeft rightNav__navLink" to="faq">FAQs</NavLink>
                                    </div>
                                 </div>
                         </div>
@@ -96,8 +96,8 @@ const Header = () => {
                     <div className='col-12'>
                         <div className='menu-bottom d-flex align-items-center gap-30'>
                             <div className='d-flex gap-10 pt-3 me-5'>
-                                <BiCategory className='text-white'/>
-                                <p>SHOP BY CATEGORY</p>
+                                <BiCategory className='text-white gayeb'/>
+                                <p className='gayeb'>SHOP BY CATEGORY</p>
                             </div>
                             <div className='menu-links'>
                                 <div className='d-flex align-items-center ms-5 gap-15'>
@@ -107,7 +107,7 @@ const Header = () => {
                                     <NavLink to="about">ABOUT US</NavLink>
                                 </div>
                             </div>
-                            <div className='menu-offer'>Spend $120 more and get free shipping</div>
+                            <div className='menu-offer gayeb'>Spend $120 more and get free shipping</div>
                         </div>
                        
                     </div>
