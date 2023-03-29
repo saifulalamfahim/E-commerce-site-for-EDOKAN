@@ -1157,6 +1157,12 @@ footer{
   margin-left: 27px;
 }
 /* trending product container end */
+/* Flash Deals Container start */
+
+.productBanner{
+display: none;
+}
+/* Flash Deals Container end */ 
 
 }
 @media screen and (max-width: 900px){
@@ -1238,5 +1244,21 @@ margin-left: 37px;
 margin-left: 27px;
 }
 /* trending product container end */
+}
+
+@media screen and (max-width: 550px) {
+    /* Flash Deals Container start */
+.flashDealsCard .flashDealsCard__Img img{
+width: 210px;
+height: 160px;
+}
+.flashDealsCard .flashDealsCard__data{
+padding: 38px 10px 20px 0px;
+}
+.FlashButton{
+  padding: 12px 49px;
+}
+
+/* Flash Deals Container end */ 
 }
 /* Responsive for tablet end here */

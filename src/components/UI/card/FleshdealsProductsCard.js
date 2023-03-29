@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const FleshdealsProductsCard = () => {
     return (
-        <div className='col-6'>
+        <div className='col-xl-6 col-lg-12 mb-4'>
             <div className='flashDealsCard d-flex'>
                 <div className='flashDealsCard__Img'>
                     <div className='flashDealsCard__Img__something'>
