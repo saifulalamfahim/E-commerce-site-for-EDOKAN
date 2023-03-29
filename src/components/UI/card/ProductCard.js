@@ -4,7 +4,7 @@ import { AiFillStar } from 'react-icons/ai';
 
 const ProductCard = () => {
     return (
-        <div className='col-2'>
+        <div className='col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4'>
             <div className='productCard'>
                 <div className='productCard__image'>
                     <img src="images/tab3.jpg" alt="Product img" />
@@ -27,7 +27,7 @@ const ProductCard = () => {
                     </div>
                     <p className='price text-danger ms-1'>$127.00</p>
                 </div>
-                <div className=''>
+                <div className='productCard__button'>
                 <Link className='cart-button'>ADD TO CART</Link>
                 </div>
             </div>

@@ -5,7 +5,7 @@ import { FaGreaterThan } from 'react-icons/fa';
 
 const TrendingProductsContainer = () => {
     return (
-        <div className='container trendingProducts mb-5'>
+        <div className='container trendingProducts mb-4'>
            <div className='row'>
             <div className='trendingProducts__products'>
                 <h5>Hot Trending Products</h5>
