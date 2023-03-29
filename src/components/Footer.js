@@ -6,7 +6,7 @@ import FooterCardThird from './UI/card/FooterCardThird';
 const Footer = () => {
     return (
         <>
-        <footer className='py-5'>
+        <footer className='py-5 top-footer'>
             <div className='container-xl'>
                 <div className='row'>
                     <div className='col-12'>
@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
-        <footer className='py-0'>
+        <footer className='py-0 mid-footer'>
             <div className='container-xl'>
                 <div className='row'>
                    <FooterCardSecond/>
