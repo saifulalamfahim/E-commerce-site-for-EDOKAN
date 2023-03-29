@@ -291,8 +291,8 @@ a {
   margin-bottom: 50px;
 }
 .mainBanner img{
-  height: 395px;
-  width: 620px;
+  height: 415px;
+  width: 580px;
   object-fit: cover;
 }
 .smallBanner__content {
@@ -315,7 +315,7 @@ a {
   margin-top: 24px;
 }
 .smallBanner img{
-  height: 185px;
+  height: 195px;
   margin-left: -20px;
   object-fit: cover;
 }
@@ -1074,7 +1074,7 @@ footer{
 /* Responsive for tablet stat here */
 
 @media screen and (max-width: 1200px){
-
+/* header start */
   .header-top-strip__nav__help{
     display: none;
   }
@@ -1116,9 +1116,38 @@ footer{
   .header-botton{
   padding-top: 10px;
   }
+  /* header end */
+   /* Banner container start */
+.mainBanner__content h5{
+  width: 380px;
+  height: 90px;
+  font-size: 32px;
+  margin-left: 2px;
+}
+.mainBanner__content p{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.mainBanner img{
+  height: 345px;
+  width: 480px;
+}
+.smallBanner__content h5{
+  margin-left: 10px;
+}
+.smallBanner__content p{
+  margin-left: 10px;
+}
+.smallBanner img{
+  height: 160px;
+  width: 320px;
+  margin-left: 10px;
+}
+/* Banner container end */
 
 }
 @media screen and (max-width: 900px){
+  /* header start  */
   .header-upper-links {
     margin-left: 0px;
   }
@@ -1131,8 +1160,36 @@ footer{
   .header-upper-links {
     margin-left: 140px;
   }
+  /* header end */
+}
+@media screen and (max-width: 992px){
+  .gayeb-2{
+    display: none;
+  }
+  .mainBanner__content h5{
+    width: 380px;
+    height: 90px;
+    font-size: 32px;
+    margin-left: 2px;
+  }
+  .mainBanner__content p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .mainBanner img{
+    width: 700px;
+  }
+  .mainBanner {
+    
+  }
+}
+@media screen and (max-width: 780px){
+  .mainBanner img{
+    width: 500px;
+  }
 }
 @media screen and (max-width: 650px){
+  /* header start  */
   input[type="text"] {
     width: 200px;
     height: 30px;
@@ -1144,5 +1201,11 @@ footer{
   .header-upper-links{
     margin-left: 80px;
   }
+  /* header end */
+  /* banner start */
+  .mainBanner img{
+    width: 430px;
+  }
+ /* banner end*/
 }
 /* Responsive for tablet end here */

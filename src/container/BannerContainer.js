@@ -7,9 +7,9 @@ const BannerContainer = () => {
         <div>
                       <div className='container'>
                     <div className='row'>
-                        <div className='col-7'>
+                        <div className=' col-xl-7 col-lg-7'>
                             <div className='mainBanner position-relative p-4'>
-                                <img src="images/beg.png" className='img-fluid rounded-4' alt="main banner" />
+                                <img src="images/beg.png" className='rounded-4' alt="main banner" />
                                 <div className='mainBanner__content position-absolute'>
                                     <h5>Lorem ipsum dolor, sit amet elit.</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -17,7 +17,7 @@ const BannerContainer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-5'>
+                        <div className='col-xl-5 col-lg-5 gayeb-2'>
                             <div className='d-flex flex-wrap justify-content-between align-items-center'>
                                 <div className='smallBanner position-relative'>
                                     <img src="images/1.png" className='img-fluid rounded-4' alt="main banner" />
