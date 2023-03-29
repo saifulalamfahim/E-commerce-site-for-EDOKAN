@@ -1170,6 +1170,15 @@ display: none;
 .mid-footer{
   display: none;
 }
+.shipping-op{
+  display: none;
+}
+.shopCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 }
 @media screen and (max-width: 900px){
@@ -1289,6 +1298,11 @@ margin-left: 27px;
     height: 30px;
   }
 /* footer third part end */
+ /* Shop Product Card Start */
+.imageContainer__imageText {
+  left: 70%;
+}
+ /* Shop Product Card end */
 }
 
 @media screen and (max-width: 550px) {

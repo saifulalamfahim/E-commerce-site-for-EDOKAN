@@ -7,7 +7,7 @@ import ProductsBrandCard from './UI/card/ProductsBrandCard';
 
 const ShippingOptions = () => {
     return (
-        <div className='col-3'>
+        <div className='col-3 shipping-op'>
             <div className='shipping-options mb-5'>
                 <p>Shipping Options</p>
             </div>

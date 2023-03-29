@@ -10,7 +10,7 @@ import { TfiLayout } from 'react-icons/tfi';
 
 const ShopProducts = () => {
     return (
-        <div className='col-9 shop-Products'>
+        <div className='col-xl-9 col-sm-12 shop-Products mb-4'>
             <div className="shop-Products__imageContainer">
                 <img src="images/blog-1.jpg" alt="img" />
                 <div className="imageContainer__imageText">
@@ -35,7 +35,7 @@ const ShopProducts = () => {
                     <TfiLayout className='ms-3'/>
                 </div>
             </div>
-           <div className='d-flex'>
+           <div className='d-flex shopCard'>
            <ShopProductsCard/>
             <ShopProductsCard/>
             <ShopProductsCard/>
