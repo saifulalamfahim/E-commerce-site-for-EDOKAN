@@ -1180,6 +1180,33 @@ display: none;
   align-items: center;
 }
 
+/* Favorite start here */
+.wishList-Card .wishList-Card__item img{
+margin-left: 0px;
+}
+/* Favorite end here */
+
+/* Cart start here */
+
+.wishList  .wishList__price{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: var(--color-ffffff);
+padding: 20px;
+font-size: 30px;
+}
+.wishList__price__subtotal{
+display: flex;
+}
+.wishList__price__subtotal p{
+margin: 20px;
+}
+
+/* Cart end here */
+
+
 }
 @media screen and (max-width: 900px){
   /* header start  */
@@ -1303,6 +1330,36 @@ margin-left: 27px;
   left: 70%;
 }
  /* Shop Product Card end */
+ 
+/* Favorite start here */
+.wishList-Card .wishList-Card__item p{
+  margin-right: 20px;
+}
+.wishList-Card .wishList-Card__item img{
+margin-left: 10px;
+}
+/* Favorite end here */
+
+/* Cart start here */
+
+/* .wishList  .wishList__price{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: var(--color-ffffff);
+padding: 20px;
+font-size: 30px;
+}
+.wishList__price__subtotal{
+display: flex;
+}
+.wishList__price__subtotal p{
+margin: 20px;
+} */
+
+/* Cart end here */
+
 }
 
 @media screen and (max-width: 550px) {
@@ -1322,49 +1379,9 @@ padding: 38px 10px 20px 0px;
   width: 410px;
  }
  /* Login Start here */
-/* .login{
-  text-align: center;
-}
-.login h2{
-  font-size: 34px;
-  font-weight: 700;
-}
-.login h6{
-  font-size: 13px;
-  color: var(--color-7c9cc8);
-  margin-top: -5px;
-} */
 .login form{
-  /* display: flex;
-  flex-direction: column;
-  text-align: start;
-  background-color: var(--color-ffffff);
-  border-radius: 2%; */
   width: 380px;
-  /* height: 300px;
-  padding: 20px 20px;
-  margin: auto; */
 }
-/* .login label{
-  font-weight: 600;
-  font-size: 12px;
-  margin-bottom: 20px;
-}
-.login h5{
-  font-size: 14px;
-  color: var(--color-7c9cc8);text-align: end;
-}
-.login p{
-  font-size: 14px;
-  color: var(--color-7c9cc8);
-  margin-top: 15px;
-}
-.login span{
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--color-16bcdc);
-  cursor: pointer;
-} */
 /* Login End here */
 
 /* MyAccount start here */

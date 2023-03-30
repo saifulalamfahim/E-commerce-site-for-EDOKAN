@@ -10,10 +10,10 @@ const MyWishListContainer = () => {
                 <div className='wishList__items__item col-8'>
                         Item
                 </div>
-                <div className='wishList__items__item col-2'>
+                <div className='wishList__items__item col-2 '>
                         Price
                 </div>
-                <div className='wishList__items__item col-2'>
+                <div className='wishList__items__item col-2 '>
                         Action
                 </div>
            </div>
