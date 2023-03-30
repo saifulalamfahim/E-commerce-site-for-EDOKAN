@@ -7,18 +7,18 @@ const ContactContainer = () => {
                 <h1>CONTACT <br /> WITH <span>EDOKAN</span></h1>
             </div>
             <div className='contact__details'>
-                <div className='contact__details__touch'>
+                <div className='contact__details__touch mb-2'>
                     <p className='name'>GET IN TOUCH</p>
                     <p>Instagram</p>
                     <p>Facebook</p>
                     <p>LinkedIn</p>
                     <p>Twitter</p>
                 </div>
-                <div className='contact__details__email'>
+                <div className='contact__details__email mb-2'>
                         <p className='name'>EMAIL</p>
                         <p>safahim84@gmail.com</p>
                 </div>
-                <div className='contact__details__location'>
+                <div className='contact__details__location mb-2'>
                     <p className='name'>LOCATION</p>
                     <p>743 Freedom Lane
                         <br /> Modesto, California <br /> USA 12345</p>

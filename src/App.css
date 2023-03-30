@@ -1258,6 +1258,22 @@ margin-left: 37px;
   font-size: 12px;
   font-weight: 700;
   }
+  /* Contact start here */       
+.contact .contact__name h1
+{
+  margin-left: 20px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact__details{
+  flex-direction: column;
+  margin-top: 60px;
+}
+/* Contact end here */
 }
 @media screen and (max-width: 650px){
   /* header start  */
