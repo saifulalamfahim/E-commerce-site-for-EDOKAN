@@ -8,7 +8,7 @@ const CreateAccountContainer = () => {
                 <h2>Create New Customer Account</h2>
                 <h6>If you have an account go to login page</h6>
                 <form id='myAccount' className='mt-3'>
-                    <div className=''>
+                    <div className='firstLast'>
                     <label className=''>
                         First Name:
                         <input type="" className="form-control py-2" placeholder="Enter your first name" aria-label="Enter your first name..." />
@@ -26,7 +26,7 @@ const CreateAccountContainer = () => {
                         Email:
                         <input type="email" className="form-control py-2" placeholder="Enter your email..." aria-label="Enter your email..." />
                     </label>
-                    <div className=''>
+                    <div className='firstLast'>
                     <label>
                         Password:
                         <input type="" className="form-control py-2" placeholder="Enter your email..." aria-label="Enter your email..." />

@@ -6,7 +6,7 @@ const LoginContainer = () => {
         <div className='container mb-5'>
             <div className='row login mt-4'>
                 <h2>Customer Login</h2>
-                <h6>If you have an account sign in wit your email address.</h6>
+                <h6>If you have an account sign in with your email address.</h6>
                 <form className='mt-3'>
                     <label>
                         Email:
