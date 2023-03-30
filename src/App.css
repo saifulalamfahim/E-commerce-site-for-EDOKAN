@@ -1230,6 +1230,17 @@ font-size: 18px;
   .mainBanner img{
     width: 700px;
   }
+  /* about start here */
+  .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.about .about__text h1 {
+  margin-left: 60px;
+}
+/* about end here */
 }
 @media screen and (max-width: 780px){
   .mainBanner img{
